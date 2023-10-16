@@ -4,5 +4,5 @@ FROM nginx:latest
 # Copy the website files into the default NGINX web root directory
 COPY ./ /usr/share/nginx/html/
 
-# Expose port 8000 for HTTP traffic
-EXPOSE 8000
+# Expose port 80 for HTTP traffic
+EXPOSE 80
